@@ -68,3 +68,4 @@ if st.button("Predict"):
 
     prediction = model.predict(new_data)
     st.success(f"Predicted Play Badminton: {'Yes' if prediction[0] == 1 else 'No'}")
+
